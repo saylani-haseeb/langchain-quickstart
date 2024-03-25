@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.llms import OpenAI
 st.set_page_config(page_title="🤖 Haseeb's AI")
-st.title(`🤖 Haseeb's AI`)
+st.title("🤖 Haseeb's AI")
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
